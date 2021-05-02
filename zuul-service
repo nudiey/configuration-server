@@ -1,0 +1,7 @@
+zuul.routes.employee.url=http://localhost:8081
+zuul.routes.holiday.url=http://localhost:8082
+zuul.routes.notification.url=http://localhost:8083
+zuul.routes.leaverequest.url=http://localhost:8084
+
+eureka.client.service-url.defaultZone = http://localhost:8761/eureka/
+server.port=8079
