@@ -19,7 +19,7 @@ spring:
         format_sql: true
         id:
           new_generator_mappings: false
-    application:
+   application:
       name: auth-service
 
 server:
