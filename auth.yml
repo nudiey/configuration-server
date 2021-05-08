@@ -26,9 +26,10 @@ server:
    port: 8089 # This is the default port anyway, but you can change it here
 
 eureka:
-    client:
-      service-url:
-        defaultZone: http://localhost:8761/eureka/
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+              
 security:
   jwt:
     token:
